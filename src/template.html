@@ -6,6 +6,39 @@
     <title>Document</title>
 </head>
 <body>
-    <h3>Test</h3>
+    <div class="container">
+        <form action="#" id="mainForm" novalidate>
+            <div class="formRow">
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="formRow">
+                <label for="country">Country: </label>
+                <select name="country" id="country">
+                    <option selected disabled hidden value="">Choose your country</option>
+                    <option value="slovakia">Slovakia</option>
+                    <option value="czechia">Czechia</option>
+                    <option value="poland">Poland</option>
+                    <option value="ukraine">Ukraine</option>
+                    <option value="austria">Austria</option>
+                </select>
+            </div>
+            <div class="formRow">
+                <label for="zipCode">ZIP: </label>
+                <input type="text" id="zipCode" name="zipCode">
+            </div>
+            <div class="formRow">
+                <label for="password">Password: </label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div class="formRow">
+                <label for="rePassword">Repeat password: </label>
+                <input type="password" name="rePassword" id="rePassword">
+            </div>
+            <div class="formRow">
+                <button type="submit">Ahaha</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
