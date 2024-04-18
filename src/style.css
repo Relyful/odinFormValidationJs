@@ -21,10 +21,10 @@ body {
 
 form {
     width: 100%;
-    height: 60%;
+    height: auto;
     display: flex;
     flex-direction: column;
-    gap: 3%;
+    gap: 5px;
 }
 
 label {
@@ -49,4 +49,26 @@ input, .selectDiv {
 
 .selectDiv {
     display: flex;
+}
+
+
+#email:invalid, #password:invalid, #rePassword:invalid, #zipCode:invalid {
+    border: 2px solid rgba(255, 0, 0, 0.582);
+}
+
+#email:invalid:focus, #password:invalid:focus, #rePassword:invalid:focus, #zipCode:invalid:focus {
+    border: 1px solid rgba(0, 0, 0, 0.582);
+}
+
+.spanError {
+    height: auto;
+    display: block;
+    font-size: 12px;
+    color: red;
+    margin-left: 33%;
+}
+.errors {
+    margin-top: 10px;
+    font-size: 12px;
+    color: red;
 }
