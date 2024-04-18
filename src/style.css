@@ -72,3 +72,8 @@ input, .selectDiv {
     font-size: 12px;
     color: red;
 }
+
+button {
+    padding: 5px;
+    margin: 2px;
+}
